@@ -1,0 +1,51 @@
+#title{
+    font-family: fantasy;
+    color: rgb(228, 160, 72);
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+#description{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: -10px;
+}
+#picture{
+    height: 200px;
+}
+#height{
+    display: inline-block;
+    font-size: 25;
+    background-color: yellow;
+}
+/* #weight{
+    display: inline-block;
+    background-color: yellow;
+} */
+body{
+    text-align: center;
+    background-color: rgb(216, 216, 216);
+}
+#pokeName{
+    font-size: 45px;
+    margin-top: -15px;
+}
+#userInput{
+    font-size: 35px;
+    border: 2px black;
+}
+#getPoke{
+    display: block;
+    margin-top: 10px;
+    margin-left: 48%;
+    font-size: 20px;
+    border-radius: 15%;
+    background-color:darkgrey;
+    border-bottom: 2px black;
+}
+#getPoke:hover{
+    color: rgb(0, 226, 0);
+}
